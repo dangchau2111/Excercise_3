@@ -62,17 +62,6 @@ class NeuralNetwork:
 
     @staticmethod
     def create_triplets(x, y, num_triplets=1000):
-        """
-        Create triplets of (anchor, positive, negative) samples.
-
-        Parameters:
-        - x: Input features (numpy array)
-        - y: Labels (numpy array)
-        - num_triplets: Number of triplets to create (int)
-
-        Returns:
-        - triplets: List of triplets (list of tuples)
-        """
         triplets = []
         for _ in range(num_triplets):
             anchor_idx = np.random.randint(0, x.shape[0])
