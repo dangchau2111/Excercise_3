@@ -61,4 +61,5 @@ After training the model for 10 epochs with learning rate decay, the model achie
 - Epoch 8/10, Loss: 0.9995121715861842, Learning Rate: 0.0099304865938431
 - Epoch 9/10, Loss: 0.9995296268506397, Learning Rate: 0.00992063492063492
 - Epoch 10/10, Loss: 0.9995738937151536, Learning Rate: 0.009910802775024779
-Accuracy: 72.16%
+
+- Accuracy: 72.16%
